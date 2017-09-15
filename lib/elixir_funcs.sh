@@ -91,7 +91,7 @@ function backup_mix() {
 
 function install_hex() {
   output_section "Installing Hex"
-  mix local.hex --force
+  mix local.hex --force --if-missing
 }
 
 function install_rebar() {
